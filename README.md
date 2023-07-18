@@ -5,7 +5,7 @@ Dataset Info Collector is a Python library that provides a DatasetDownloader cla
 Here's an example of how to use the DatasetDownloader class:
 
 ```python
-from dataset_info_collector import DatasetDownloader
+from datasets_info_collector import DatasetDownloader
 accessions_list = ['accession1', 'accession2', 'accession3']
 downloader = DatasetDownloader(accessions_list)
 downloader.download_datasets()
