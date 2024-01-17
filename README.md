@@ -19,5 +19,7 @@ To use de  script you need to have Python 3.x, along with following programs ins
 
 - datasets (from NCBI)
 - unzip
+- tqdm
+- requests
 
 Note that this script was developed for research purposes and may require modifications to adapt to different scenarios.
