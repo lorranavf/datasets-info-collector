@@ -12,7 +12,7 @@ downloader.download_datasets()
 ```
 
 The DatasetDownloader class takes a list of dataset accessions as a parameter during initialization. The download_datasets() method is then called to initiate the download process. 
-The method handles the downloading of datasets for the given accessions and prints any accessions that were not successfully downloaded.
+The method handles the downloading of datasets for the given accessions and prints any accessions that were not successfully downloaded after 3 attempts.
 
 ## Requirements
 To use de  script you need to have Python 3.x, along with following programs installed:
